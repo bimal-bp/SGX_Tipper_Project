@@ -1,0 +1,38 @@
+
+streamlit
+pandas 
+numpy 
+folium 
+streamlit-folium
+Pillow
+psycopg2-binary
+python-dotenv
+
+# Database & ORM
+sqlalchemy==2.0.23
+psycopg2-binary==2.9.9  # For PostgreSQL (or use pymysql for MySQL)
+
+# Date/Time Handling
+python-dateutil==2.8.2
+pytz==2023.3
+
+# Notifications
+twilio==8.3.0            # For SMS alerts
+python-dotenv==1.0.0     # For environment variables
+email-validator==2.0.0
+
+# Visualization
+plotly==5.18.0
+altair==5.2.0
+
+# Excel Export
+openpyxl==3.1.2
+xlsxwriter==3.1.9
+
+# Optional (for deployment)
+gunicorn==21.2.0
+uvicorn==0.23.2
+
+# Testing
+pytest==7.4.3
+pytest-cov==4.1.0
